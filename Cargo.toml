@@ -1,0 +1,11 @@
+[package]
+name = "spl-nft-lab"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+solana-client = "4.2.2"
+solana-sdk = "<4.1"
+solana-system-interface = { version = "<3.3", features = ["bincode"] }
+spl-associated-token-account = "8.0.0"
+spl-token = "9.0.0"
